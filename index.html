@@ -8,9 +8,14 @@ main{flex:1}a{color:var(--accent);text-underline-offset:3px}
 h1{font-size:40px;line-height:1.08;letter-spacing:-1.2px;margin:0 0 14px}h2{margin:34px 0 8px;font-size:20px}
 code{background:color-mix(in srgb,var(--ink) 8%,transparent);padding:1px 6px;border-radius:4px;font-size:.92em}
 .muted{color:var(--mute)}ul{padding-left:20px}li{margin:6px 0}
-footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}</style></head><body><main>
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}.cta{display:inline-flex;align-items:center;gap:10px;margin:8px 0 6px;padding:11px 18px;border:1px solid var(--ink);border-radius:5px;font-weight:600;color:var(--bg);background:var(--ink);text-decoration:none}
+.cta.soon{background:transparent;color:var(--mute);border-style:dashed;border-color:var(--line);cursor:default}
+.cta small{font-weight:500;opacity:.8}</style></head><body><main>
 <a class="brand" href="/verifly-site/"><img src="/verifly-site/logo.png" alt="">Verifly</a>
 <h1>Your email code, already filled in.</h1>
 <p>Verifly is a Chrome extension that finds the newest verification code in your open Gmail, Outlook or Yahoo Mail tab and offers it right at the login field.</p>
+<!-- When the extension is live, replace the "soon" button below with:
+<a class="cta" href="https://chromewebstore.google.com/detail/EXTENSION_ID">Add to Chrome <small>Chrome Web Store</small></a> -->
+<p><span class="cta soon" aria-disabled="true">Chrome Web Store <small>coming soon</small></span></p>
 <ul><li>Gmail, Outlook on the web and Yahoo Mail</li><li>Emails in English and Hebrew, with more languages planned</li><li>Suggest or auto-fill, light or dark theme</li><li>Reads only the mail tabs you already have open. Nothing leaves your browser.</li></ul>
 <p><a href="privacy/">Privacy policy</a></p></main><footer>Created by <a href="https://raphael.aboohi.net">Raphael Aboohi</a> · <a href="https://raphael.aboohi.net">raphael.aboohi.net</a></footer></body></html>
