@@ -1,8 +1,16 @@
 <!doctype html><html lang="en"><head><title>Verifly</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<style>:root{color-scheme:light dark}body{font:17px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 auto;padding:40px 20px;color:#1b1d29;background:#fff}
-@media(prefers-color-scheme:dark){body{background:#16171f;color:#eceef7}a{color:#8ea2ff}}
-h1{font-size:34px;letter-spacing:-.5px}h2{margin-top:32px}code{background:rgba(120,120,160,.18);padding:1px 6px;border-radius:5px}
-.muted{opacity:.65}img{width:64px;height:64px;border-radius:16px}</style></head><body>
-<h1>Verifly</h1><p><b>Your email code, already filled in.</b></p>
-<p>A Chrome extension that finds the newest verification code in your open Gmail, Outlook or Yahoo Mail tab and fills it into the login form. Supports English and Hebrew emails.</p>
-<p><a href="privacy/">Privacy policy</a></p></body></html>
+<link rel="icon" href="/verifly-site/logo.png">
+<style>:root{color-scheme:light dark;--bg:#f6f4ef;--ink:#17171a;--mute:#6b6860;--line:#dcd8cd;--accent:#d9480f}
+@media(prefers-color-scheme:dark){:root{--bg:#141413;--ink:#ece9e1;--mute:#9a968b;--line:#2c2b28;--accent:#ff7a3d}}
+*{box-sizing:border-box}body{font:17px/1.6 -apple-system,"SF Pro Text","Segoe UI",system-ui,sans-serif;max-width:720px;margin:0 auto;padding:40px 20px 24px;color:var(--ink);background:var(--bg);min-height:100vh;display:flex;flex-direction:column}
+main{flex:1}a{color:var(--accent);text-underline-offset:3px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:650;font-size:20px;margin-bottom:36px;color:var(--ink);text-decoration:none}.brand img{width:34px;height:34px;border-radius:22%;box-shadow:0 0 0 1px var(--line)}
+h1{font-size:40px;line-height:1.08;letter-spacing:-1.2px;margin:0 0 14px}h2{margin:34px 0 8px;font-size:20px}
+code{background:color-mix(in srgb,var(--ink) 8%,transparent);padding:1px 6px;border-radius:4px;font-size:.92em}
+.muted{color:var(--mute)}ul{padding-left:20px}li{margin:6px 0}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}</style></head><body><main>
+<a class="brand" href="/verifly-site/"><img src="/verifly-site/logo.png" alt="">Verifly</a>
+<h1>Your email code, already filled in.</h1>
+<p>Verifly is a Chrome extension that finds the newest verification code in your open Gmail, Outlook or Yahoo Mail tab and offers it right at the login field.</p>
+<ul><li>Gmail, Outlook on the web and Yahoo Mail</li><li>Emails in English and Hebrew, with more languages planned</li><li>Suggest or auto-fill, light or dark theme</li><li>Reads only the mail tabs you already have open. Nothing leaves your browser.</li></ul>
+<p><a href="privacy/">Privacy policy</a></p></main><footer>Created by <a href="https://raphael.aboohi.net">Raphael Aboohi</a> · <a href="https://raphael.aboohi.net">raphael.aboohi.net</a></footer></body></html>
